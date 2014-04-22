@@ -1,7 +1,13 @@
 /* Your Website Styles */
+body {
+	background: url("../img/bg.png") repeat;
+}
+
 img{
 	width: 400px;
 }
+
+
 h1{ 
 
 	font-size: 300%;
@@ -10,17 +16,17 @@ h1{
 	color: red;
 }
 
-body {
-	background-image: url("img/bg.png") repeat-y;
-}
+
 
 p {	
 font-family: 'Rokkitt', serif; 
 color: red;
-background-image: url("img/bg.png") repeat-y;
+font-weight: bold;
+
 }
 
 h3 {
+	font-size: 200%;
 	font-family: 'Shadows Into Light', 'cursive';
 	color: red;
 }
@@ -30,6 +36,7 @@ h3 {
 ul {
 	font-family: 'Rokkitt', serif;
 	color: red;
+	font-weight: bold;
 }
 
 
